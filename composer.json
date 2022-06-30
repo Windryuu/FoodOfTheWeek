@@ -1,0 +1,19 @@
+{
+    "name": "windryuu/fotw",
+    "require": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "dao\\":"src/dao",
+            "model\\":"src/model",
+            "controller\\":"src/Controller"
+        }
+    },
+    "authors": [
+        {
+            "name": "Windryuu",
+            "email": "brayan.jean@laposte.net"
+        }
+    ]
+}
