@@ -38,7 +38,7 @@ if(empty($_POST)){
         try {
             $ingredientDao = new IngredientDao();
             $ingredientDao->addIngredient($new_ingredient);
-            //var_dump($ingredientDao);
+            
             header("Location: index.php");
             exit;
         } catch (PDOException $e) {

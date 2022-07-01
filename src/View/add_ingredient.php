@@ -8,7 +8,7 @@ if(!empty($error)){
         echo "<br>";
     }
 }
-//var_dump($_POST);
+
 ?>
 <form action="" method="post">
     <input type="text" name="item_name" id="item_name">
